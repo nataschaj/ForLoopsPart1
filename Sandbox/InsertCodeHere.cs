@@ -11,18 +11,18 @@ namespace Sandbox
 
             // Case 1
             Console.WriteLine("Start of case 1");
-            for (int i = 0; i < 15; i = i + 3)
+            for (int i = 0; i < 15; i = i + 3) //vi sætter i til at være 0. Så længe at i er mindre end 15, skal i + 3. Sidste tal vil derfor være 12. 
             {
-                // Console.WriteLine(i); // Uncomment to see result
+                Console.WriteLine(i); // Uncomment to see result
             }
             Console.WriteLine("End of case 1");
 
 
             // Case 2
             Console.WriteLine("Start of case 2");
-            for (int i = 10; i >= 3; i--)
+            for (int i = 10; i >= 3; i--) // vi sætter i til at være 10. Så længe at i er større eller lig med 3, skal i -1. Sidste tal vil derfor være 3. 
             {
-                // Console.WriteLine(i); // Uncomment to see result
+                Console.WriteLine(i); // Uncomment to see result
             }
             Console.WriteLine("End of case 2");
 
@@ -37,16 +37,18 @@ namespace Sandbox
             }
             Console.WriteLine("End of case 3");
 
+            
 
-            // Case 4 - Change this to a for-loop!
-            Console.WriteLine("Start of case 4");
-            int c4 = 0;
-            while (c4 < 50)
-            {
-                Console.WriteLine(c4);
-                c4 = c4 * 2 + 2;
-            }
-            Console.WriteLine("End of case 4");
+
+            //// Case 4 - Change this to a for-loop!
+            //Console.WriteLine("Start of case 4");
+            //int c4 = 0;
+            //while (c4 < 50)
+            //{
+            //    Console.WriteLine(c4);
+            //    c4 = c4 * 2 + 2;
+            //}
+            //Console.WriteLine("End of case 4");
 
             // The LAST line of code should be ABOVE this line
         }
