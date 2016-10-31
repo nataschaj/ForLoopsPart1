@@ -37,19 +37,33 @@ namespace Sandbox
             }
             Console.WriteLine("End of case 3");
 
-            
+            //changed into for loop
+            Console.WriteLine("Start of case 3");
+            for (int i = 0; i < 12; i= i+2)
+            {
+                Console.WriteLine(i+2);
+            }
+            Console.WriteLine("End of case 3");
+
 
 
             //// Case 4 - Change this to a for-loop!
-            //Console.WriteLine("Start of case 4");
-            //int c4 = 0;
-            //while (c4 < 50)
-            //{
-            //    Console.WriteLine(c4);
-            //    c4 = c4 * 2 + 2;
-            //}
-            //Console.WriteLine("End of case 4");
+            Console.WriteLine("Start of case 4");
+            int c4 = 0;
+            while (c4 < 50)
+            {
+                Console.WriteLine(c4);
+                c4 = c4 * 2 + 2;
+            }
+            Console.WriteLine("End of case 4");
 
+            //changed into for loop
+            Console.WriteLine("Start of case 4");
+            for (int i = 0; i < 50; i = i * 2 + 2)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("End of case 4");
             // The LAST line of code should be ABOVE this line
         }
     }
